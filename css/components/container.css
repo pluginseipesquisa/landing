@@ -1,0 +1,66 @@
+
+.components-container {
+  display: flex;
+  width: 80% vw;
+  
+}
+
+.banner-container {
+  width: 80%;
+  overflow: hidden;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  position: relative;
+  left: 100px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.banner-container > img {
+  position: absolute;
+  width: 100%;
+  object-fit: cover;
+  opacity: 0.4;
+}
+
+.banner-container h1 {
+  font-size: 20px;
+  font-weight: bolder;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.banner-container h2 {
+  font-size: 16px;
+  font-weight: lighter;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.banner-container p {
+  font-size: 12px;
+  opacity: .7;
+  margin-top: 100px;
+  text-align: justify;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f3eded;
+  background-opacity: 0.5;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.cards-container {
+  position: relative;
+  margin-top: 20;
+  width: 80%;
+  margin: auto;
+  align-items: center;
+  text-align: center;
+}
+
+.footer-container {
+  position: relative;
+  margin-top: 20;
+  align-items: center;
+  justify-content: center;
+}
