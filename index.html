@@ -2,28 +2,35 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>My landing page</title>
+  <title>SEI!Pesquisa</title>
   <link rel="shortcut icon" href="data:image/x-icon;" type="image/x-icon">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js">
 
   <!-- We need this line below for responsiveness! -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- <link rel="stylesheet" href="css/style.css"> -->
 </head>
-<body class="text-center bg-light">
+<body class="text-center">
   <div class="container">
     <!-- code a Hero / Banner section -->
-    <div class="justify-content-center align-content-center shadow-lg p-3 mb-5 bg-body rounded" style="height: 100vh;  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://images.unsplash.com/photo-1566837945700-30057527ade0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80);">
+    <div class="justify-content-center align-content-center ">
       <div class="mt-5 col-12 d-flex flex-column justify-content-center">
         <div class="h1 text-light mt-5 mb-3">
-          <h1><strong>SEI!dat</strong> para um rápido acesso aos dados!</h1>
+          <img src="images/sei_pesquisa.png" alt="">
         </div>
-        <div class="h6 text-center text-light pt-2 shadow-sm p-3 mb-5 bg-body bg-dark rounded">
-            <p>Extraia com facilidade os resultados das pesquisas realizadas no SEI!</p>
-            <p>SEI!dat permite a extração estruturada de metadados do SEI! para gerar relatórios.</p>
-        </div>
-        <div class="justify-content-center">
-          <button type="button" class="btn btn-success mt-3 mb-3"><a class="text-center text-light" href="#detail">Saiba mais</a></button>
+        <div class="flebox">
+          <div class="h6 text-center" style="color: rgb(108,117,125)">
+             <h5>SEI!Pesquisa é uma extensão do Google Chrome para o SEI!</h5>
+             <h5>Aprimore a gestão da produção de unidades e membros da equipe!</h5>
+          </div>
+          <p></p>
+          <div class="justify-content-right">
+           <button type="button" class="btn btn-secondary mt-3 mb-3"><a class="text-center text-light" href="https://github.com/pluginseipesquisa/plugin">Conheça a Documentação</a></button>
+           <button type="button" class="btn btn-secondary mt-3 mb-3"><a class="text-center text-light" href="https://chrome.google.com/webstore/category/extensions?hl=pt-br">Download em Chrome Store</a></button>
+          </div>
+          <p></p>
         </div>
       </div>
     </div>
@@ -33,27 +40,30 @@
       <!-- code a "How it works" section -->
     <div class="container d-flex flex-column justify-content-center" style="width: 100vw;"> 
 
-      <h2><a class="h2 text-center text-dark mb-5" id="detail">Sobre o Projeto</a>  </h2>
+        <div class="row justify-content-center mt-3" style="color: rgb(108,117,125)">
 
-        <div class="row justify-content-center mt-3">
-
-          <div class="card mx-1 bg-light col-12 col-sm-12 col-md-2 col-lg-2	col-xl-2 col-xxl-2 shadow-sm p-1 mb-5 bg-body rounded">
-            <img class="mt-5 mb-5" src="images/equipe.PNG" alt="grupo de pessoas representando uma equipe de servidores públicos com peças de quebra-cabeça nas mãos, como um símbolo a necessidade de unir dados para gerar informações.">
-            <h4>Público-alvo</h4>
-            <p>Servidores públicos que precisam extrair dados do SEI! para executar tarefas e gerar relatórios.</p>
+          <div class="card mx-1 col-12 col-sm-12 col-md-3 col-lg-3	col-xl-3 col-xxl-3 shadow-sm p-1 mb-5 bg-body rounded">
+            <i class="fas fa-align-justify" style="font-size: 60px; margin-top: 10px; color: rgb(56,147,205)"></i>
+            <p></p>
+            <h4>Visualize em Tabela</h4>
+            <p></p>
+            <p>Visualize o resultado da pesquisa no navegador em formato de tabela</p>
           </div>
 
-          <div class="card mx-1 bg-light col-12	col-sm-12	col-md-3 col-lg-3	col-xl-3 col-xxl-3 shadow-sm p-1 mb-5 bg-body rounded">
-            <img class="mt-5 mb-3" src="images/sei.PNG" alt="exemplo de um resultado de pesquisa no SEI!">
-            <h4>Qual o problema?</h4>
-            <p>Resultado de pesquisa e relatórios do SEI! não permitem exportação de dados e não apresenta display amigável.</p>
+          <div class="card mx-1 col-12	col-sm-12	col-md-3 col-lg-3	col-xl-3 col-xxl-3 shadow-sm p-1 mb-5 bg-body rounded">
+            <i class="fas fa-file-download" style="font-size: 60px; margin-top: 10px; color: rgb(56,147,205)"></i>
+            <p></p>
+            <h4>Exporte em CSV</h4>
+            <p></p>
+            <p>Exporte o resultado da pesquisa em CSV para utilizar no editor de planilhas</p>
           </div>
 
-          <div class="card mx-1 bg-light col-12 col-sm-12	col-md-4 col-lg-4	col-xl-4 col-xxl-4 shadow-sm p-1 mb-5 bg-body rounded">
-            <img src="images/plugin.PNG" alt="">
-            <h4>Objetivo</h4>
-            <p class="fs-6">Desenvolver plugin que ofereça melhor recurso de visualização dos resultados de pesquisa e também a extração de dados do SEI!</p>
-            <p>Indexação e coleta de dados de dados baseada no uso de metadados dos documentos e processos</p>
+          <div class="card mx-1 col-12 col-sm-12	col-md-3 col-lg-3	col-xl-3 col-xxl-3 shadow-sm p-1 mb-5 bg-body rounded">
+            <i class="fas fa-chart-bar" style="font-size: 60px; margin-top: 10px; color: rgb(56,147,205)"></i>
+            <p></p>
+            <h4>Crie Relatórios</h4>
+            <p></p>
+            <p>Obtenha dados agregados e produza relatórios de acordo com a necessidade</p>
           </div>
 
           <!-- <div class="card bg-light w-50 m-3 col-12	col-sm-12	col-md-2 col-lg-2	col-xl-2 col-xxl-2 shadow-sm p-3 mb-5 bg-body rounded">
@@ -70,10 +80,11 @@
     <div class="footer-container">
 
       <!-- code a footer -->
-      <div class="footer" style="margin-top: 20px;>
-        <div class="footer-links" >
-          <a href="#"><i class="fab fa-github"></i></a>
-          <a href="#"><i class="fab fa-linkedin"></i></a>
+      <div class="footer" style="margin-top: 20px; color: rgb(108,117,125)">
+        <p>Contate os desenvolvedores:</p>
+        <div class= "footer-links" style="color: rgb(56,147,205); font-size: 22px">
+          <a href="https://github.com/pluginseipesquisa/plugin"><i class="fab fa-github"></i></a>
+          <a href="mailto:pluginseipesquisa@gmail.com?subject=Contato%20do%20Site"><i class="fas fa-envelope"></i></a>
         </div>
       </div>
 

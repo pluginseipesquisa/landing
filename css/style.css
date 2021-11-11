@@ -1,5 +1,5 @@
 /* Fonts */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&family=Roboto:wght@300;400;500&display=swap');
 
 /* Fontawesome */
 @import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
@@ -15,19 +15,26 @@
 /* Utilities */
 body {
   margin: 0;
-  font-family: Open Sans;
-  background-color: #e1dfdc;
+  color:darkgrey;
+  font-family: Roboto;
+  background-color: white;
 }
 
 
 h1, h2, h3, h4 {
-  font-family: Poppins;
-  color: #72695d;
+  font-family: Roboto;
+  color: rgb(108,117,125);
 }
 
 a {
   text-decoration: none;
 }
 
+.flexbox {
+  display: flex;
+  justify-content: space-between;
+}
 
-
+i {
+  font-size: 30px;
+}
